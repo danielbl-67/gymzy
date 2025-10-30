@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral10">
+
+    <TextView
+        android:id="@+id/titulo2"
+        android:layout_width="305dp"
+        android:layout_height="70dp"
+        android:fontFamily="@font/comfortaa"
+        android:lineSpacingExtra="8sp"
+        android:text="GYMZY"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck,VisualLintOverlap"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/tvToca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/comfortaa"
+        android:paddingBottom="16dp"
+        android:text="¿Que te toca hoy?"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo2"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <GridLayout
+        android:layout_width="308dp"
+        android:layout_height="427dp"
+        android:columnCount="1"
+        android:rowCount="9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvToca"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/bpecho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/design_default_color_error"
+            android:text="Pecho" />
+
+        <Button
+            android:id="@+id/bespalda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/design_default_color_error"
+            android:text="Espalda" />
+
+        <Button
+            android:id="@+id/bbiceps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/design_default_color_error"
+            android:text="Biceps" />
+
+        <Button
+            android:id="@+id/btriceps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/design_default_color_error"
+            android:text="Triceps" />
+
+        <Button
+            android:id="@+id/bpierna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/design_default_color_error"
+            android:text="Pierna" />
+
+        <Button
+            android:id="@+id/bgluteo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/design_default_color_error"
+            android:text="Gluteo" />
+
+        <Button
+            android:id="@+id/bhombro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/design_default_color_error"
+            android:text="Hombro" />
+
+        <Button
+            android:id="@+id/babs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/design_default_color_error"
+            android:text="Abs" />
+
+        <Button
+            android:id="@+id/bcardio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/design_default_color_error"
+            android:text="Cardio" />
+    </GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
