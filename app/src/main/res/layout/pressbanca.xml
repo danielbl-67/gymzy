@@ -19,7 +19,7 @@
         android:elevation="4dp"
         android:paddingHorizontal="16dp"
         android:paddingVertical="8dp"
-        android:text="Volver"
+        android:text="@string/btnSalir"
         android:textAllCaps="false"
         android:textColor="@android:color/white"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:layout_marginHorizontal="24dp"
-        android:text="Press de Banca con Barra"
+        android:text="@string/tituloPress"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -66,7 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:background="@drawable/logoapp"
-            android:text="Video no disponible"
+            android:text="@string/mensErro"
             android:visibility="gone" />
 
     </RelativeLayout>
@@ -93,7 +93,7 @@
             android:backgroundTint="@color/design_default_color_error"
             android:elevation="4dp"
             android:padding="12dp"
-            android:text="Reproducir"
+            android:text="@string/btnReprod"
             android:textAllCaps="false"
             android:textColor="@android:color/white" />
 
@@ -106,7 +106,7 @@
             android:backgroundTint="@color/design_default_color_error"
             android:elevation="4dp"
             android:padding="12dp"
-            android:text="Pausar"
+            android:text="@string/btnPausar"
             android:textAllCaps="false"
             android:textColor="@android:color/white" />
 
@@ -132,7 +132,7 @@
             android:textColor="@android:color/white"
             android:textSize="16sp"
             android:lineSpacingExtra="4dp"
-            android:text="• Acuéstate boca arriba en un banco plano\n• Agarra la barra con las manos ligeramente más anchas que los hombros\n• Baja la barra controladamente hasta el pecho\n• Empuja la barra hacia arriba hasta extender completamente los brazos\n• Mantén los pies firmes en el suelo y la espalda apoyada\n\nMúsculos trabajados:\n• Pectoral mayor\n• Deltoides anterior\n• Tríceps\n\nSeries y repeticiones recomendadas:\n• 4 series de 8-12 repeticiones" />
+            android:text="@string/detallesPress" />
 
     </ScrollView>
 

@@ -20,7 +20,7 @@
         android:elevation="4dp"
         android:paddingHorizontal="16dp"
         android:paddingVertical="8dp"
-        android:text="Salir"
+        android:text="@string/btnSalir"
         android:textAllCaps="false"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/background"
-        android:text="Rutina de biceps"
+        android:text="@string/tituloBiceps"
         android:textColor="@android:color/white"
         android:textSize="22sp"
         android:textStyle="bold"
@@ -78,7 +78,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginStart="16dp"
                 android:gravity="center_vertical"
-                android:text="Curl con barra"
+                android:text="@string/ej1bic"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
         </TableRow>
@@ -105,7 +105,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginStart="16dp"
                 android:gravity="center_vertical"
-                android:text="Curl alterno con mancuernas"
+                android:text="@string/ej2bic"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
         </TableRow>
@@ -132,7 +132,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginStart="16dp"
                 android:gravity="center_vertical"
-                android:text="Curl concentrado"
+                android:text="@string/ej3bic"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
         </TableRow>
@@ -159,7 +159,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginStart="16dp"
                 android:gravity="center_vertical"
-                android:text="Curl martillo (hammer curl)"
+                android:text="@string/ej4bic"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
         </TableRow>

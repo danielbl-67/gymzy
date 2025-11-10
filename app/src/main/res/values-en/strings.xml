@@ -1,2 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">GYMZY</string>
+    //Routine Screen = activity_rutina
+    <string name="bienvenida">Welcome! @{username}</string>
+    <string name="btncerrarsesion">Log Out</string>
+    <string name="toca">What are you training today?</string>
+    <string name="btnpecho">Chest</string>
+    <string name="btnespalda">Back</string>
+    <string name="btnbiceps">Biceps</string>
+    <string name="btntriceps">Triceps</string>
+    <string name="btngluteo">Glutes</string>
+    <string name="btnpierna">Legs</string>
+    <string name="btnhombro">Shoulders</string>
+    <string name="btnbabs">Abs</string>
+    <string name="btncardio">Cardio</string>
+
+    //Main Screen = activity_main
+    <string name="frase">Moving reminds us that we are alive.</string>
+    <string name="textFieldUsuario">Username</string>
+    <string name="textFieldContraseña">Password</string>
+    <string name="btnIniciarSesion">Log In</string>
+    <string name="btnPrecios">View Prices and Plans</string>
+
+    //Abs Screen = abs.xml
+    <string name="btnSalir">Exit</string>
+    <string name="tituloAbs">Abs Routine</string>
+    <string name="ej1abs">Plank</string>
+    <string name="ej2abs">Machine Crunch</string>
+    <string name="ej3abs">Leg Raises</string>
+    <string name="ej4abs">Ab Wheel</string>
+
+    //Biceps Screen = biceps.xml
+    <string name="tituloBiceps">Biceps Routine</string>
+    <string name="ej1bic">Barbell Curl</string>
+    <string name="ej2bic">Alternating Dumbbell Curl</string>
+    <string name="ej3bic">Concentration Curl</string>
+    <string name="ej4bic">Hammer Curl</string>
+
+    //Back Screen = espalda.xml
+    <string name="tituloEspalda">Back Routine</string>
+    <string name="ej1esp">Pull-ups</string>
+    <string name="ej2esp">Lat Pulldown</string>
+    <string name="ej3esp">Barbell Row</string>
+    <string name="ej4esp">Deadlift</string>
+
+    //Triceps Screen = triceps.xml
+    <string name="tituloTriceps">Triceps Routine</string>
+    <string name="ej1tri">Dips</string>
+    <string name="ej2tri">Cable Extensions</string>
+    <string name="ej3tri">French Press (EZ Bar)</string>
+    <string name="ej4tri">Dumbbell Kickbacks</string>
+
+    //Shoulders Screen = hombro.xml
+    <string name="tituloHombro">Shoulder Routine</string>
+    <string name="ej1hom">Dumbbell Shoulder Press</string>
+    <string name="ej2hom">Lateral Raises</string>
+    <string name="ej3hom">Front Raises</string>
+    <string name="ej4hom">Rear Delts (Bent-over Raises)</string>
+
+    //Chest Screen = pecho.xml
+    <string name="tituloPecho">Chest Routine</string>
+    <string name="ej1pec">Barbell Bench Press</string>
+    <string name="ej2pec">Incline Dumbbell Press</string>
+    <string name="ej3pec">Machine Fly</string>
+    <string name="ej4pec">Dips</string>
+
+        //Press Bench Screen = pressbanca.xml
+        <string name="tituloPress">Barbell Bench Press</string>
+        <string name="mensErro">Video not available</string>
+        <string name="btnReprod">Play</string>
+        <string name="btnPausar">Pause</string>
+        <string name="detallesPress">• Lie flat on a bench\n• Grip the bar slightly wider than shoulder-width\n• Lower the bar slowly to your chest\n• Push the bar up until your arms are fully extended\n• Keep your feet firm on the floor and your back supported\n\nMuscles worked:\n• Pectoralis major\n• Anterior deltoid\n• Triceps\n\nRecommended sets and reps:\n• 4 sets of 8-12 reps</string>
+
+    //Glutes Screen = gluteo.xml
+    <string name="tituloGluteo">Glutes Routine</string>
+    <string name="ej1glu">Hip Thrust</string>
+    <string name="ej2glu">Deep Squats</string>
+    <string name="ej3glu">Lunges</string>
+    <string name="ej4glu">Glute Kickback Machine</string>
+
+    //Legs Screen = pierna.xml
+    <string name="tituloPierna">Legs Routine</string>
+    <string name="ej1pie">Barbell Squat</string>
+    <string name="ej2pie">Leg Press</string>
+    <string name="ej3pie">Leg Extensions</string>
+    <string name="ej4pie">Leg Curl (Hamstrings)</string>
+
+    //Cardio Screen = cardio.xml
+    <string name="tituloCardio">Cardio Routine</string>
+    <string name="ej1car">Treadmill</string>
+    <string name="ej2car">Stationary Bike</string>
+    <string name="ej3car">Burpees</string>
+    <string name="ej4car">Jumping Jacks</string>
+
+    //Prices Screen = precios.xml
+    <string name="tituloPlanes">OUR PLANS</string>
+    <string name="plan1">BASIC</string>
+    <string name="detalles1">• Full Access\n• App\n• Changing Rooms</string>
+    <string name="plan2">PREMIUM</string>
+    <string name="detalles2">• Personal Trainer\n• Classes\n• Nutrition</string>
+    <string name="plan3">ANNUAL</string>
+    <string name="detalles3">• All Premium Benefits\n• Freeze Option\n• Guest Pass</string>
+</resources>

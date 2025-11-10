@@ -1,3 +1,106 @@
 <resources>
     <string name="app_name">GYMZY</string>
+    //Pantalla rutina = activity_rutina
+    <string name="bienvenida">¡Bienvenido! @{username}</string>
+    <string name="btncerrarsesion">Cerrar Sesión</string>
+    <string name="toca">¿Que te toca hoy?</string>
+    <string name="btnpecho">Pecho</string>
+    <string name="btnespalda">Espalda</string>
+    <string name="btnbiceps">Biceps</string>
+    <string name="btntriceps">Triceps</string>
+    <string name="btngluteo">Gluteo</string>
+    <string name="btnpierna">Pierna</string>
+    <string name="btnhombro">Hombro</string>
+    <string name="btnbabs">Abdominales</string>
+    <string name="btncardio">Cardio</string>
+
+    //Pantalla Principal =activity_main
+    <string name="frase">Moverse es recordar que estamos vivos.</string>
+    <string name="textFieldUsuario">Usuario</string>
+    <string name="textFieldContraseña">Contraseña</string>
+    <string name="btnIniciarSesion">Iniciar Sesión</string>
+    <string name="btnPrecios">Ver Precios y Planes</string>
+
+    //Pantalla Abdominales = abs.xml
+    <string name="btnSalir">Salir</string>
+    <string name="tituloAbs">Rutina de Abdominales</string>
+    <string name="ej1abs">Plancha abdominal</string>
+    <string name="ej2abs">Crunch en máquina</string>
+    <string name="ej3abs">Elevaciones de piernas</string>
+    <string name="ej4abs">Rueda abdominal</string>
+
+    //Pantalla biceps = biceps.xml
+    <string name="tituloBiceps">Rutina de Biceps</string>
+    <string name="ej1bic">Curl con barra</string>
+    <string name="ej2bic">Curl alterno con mancuernas</string>
+    <string name="ej3bic">Curl concentrado</string>
+    <string name="ej4bic">Curl martillo </string>
+
+    //Pantalla espalda = espalda.xml
+    <string name="tituloEspalda">Rutina de Espalda</string>
+    <string name="ej1esp">Dominadas</string>
+    <string name="ej2esp">Jalón al pecho</string>
+    <string name="ej3esp">Remo con barra</string>
+    <string name="ej4esp">Peso muerto</string>
+
+    //Pantalla Triceps = triceps.xml
+    <string name="tituloTriceps">Rutina de Espalda</string>
+    <string name="ej1tri">Fondos en paralelas</string>
+    <string name="ej2tri">Extensiones en polea</string>
+    <string name="ej3tri">Press francés (con barra EZ)</string>
+    <string name="ej4tri">Patada de tríceps con mancuernas</string>
+
+    //Pantalla Hombro = hombro.xml
+    <string name="tituloHombro">Rutina de Espalda</string>
+    <string name="ej1hom">Press militar con mancuernas</string>
+    <string name="ej2hom">Elevaciones laterales</string>
+    <string name="ej3hom">Elevaciones frontales</string>
+    <string name="ej4hom">Pájaros</string>
+
+    //Pantalla Pecho = pecho.xml
+    <string name="tituloPecho">Rutina de Pecho</string>
+    <string name="ej1pec">Press de banca con barra</string>
+    <string name="ej2pec">Press inclinado con mancuernas</string>
+    <string name="ej3pec">Aperturas en máquina</string>
+    <string name="ej4pec">Fondos en paralelas</string>
+
+        //Pantalla pressBanca = pressbanca.xml
+        <string name="tituloPress">Press de Banca con Barra</string>
+        <string name="mensErro">Video no disponible</string>
+        <string name="btnReprod">Reproducir</string>
+        <string name="btnPausar">Pausar</string>
+        <string name="detallesPress">• Acuéstate boca arriba en un banco plano\n• Agarra la barra con las manos ligeramente más anchas que los hombros\n• Baja la barra controladamente hasta el pecho\n• Empuja la barra hacia arriba hasta extender completamente los brazos\n• Mantén los pies firmes en el suelo y la espalda apoyada\n\nMúsculos trabajados:\n• Pectoral mayor\n• Deltoides anterior\n• Tríceps\n\nSeries y repeticiones recomendadas:\n• 4 series de 8-12 repeticiones</string>
+
+    //Pantalla Gluteo = gluteo.xml
+    <string name="tituloGluteo">Rutina de Gluteo</string>
+    <string name="ej1glu">Empuje de cadera</string>
+    <string name="ej2glu">Sentadillas profundas</string>
+    <string name="ej3glu">Zancadas</string>
+    <string name="ej4glu">Patada de glúteo en máquina</string>
+
+    //Pantalla Pierna = pierna.xml
+    <string name="tituloPierna">Rutina de Pierna</string>
+    <string name="ej1pie">Sentadilla con barra</string>
+    <string name="ej2pie">Prensa de piernas</string>
+    <string name="ej3pie">Extensiones de cuádriceps</string>
+    <string name="ej4pie">Curl femoral (isquiotibiales)</string>
+
+    //Pantalla Cardio = cardio.xml
+    <string name="tituloCardio">Rutina de Cardio</string>
+    <string name="ej1car">Cinta de correr </string>
+    <string name="ej2car">Bicicleta estática</string>
+    <string name="ej3car">Burpees</string>
+    <string name="ej4car">Saltos de tijera</string>
+
+    //Pantalla precios = precios.xml
+    <string name="tituloPlanes">NUESTROS PLANES</string>
+    <string name="plan1">BÁSICO</string>
+    <string name="detalles1">• Acceso completo\n• App\n• Vestuarios</string>
+    <string name="plan2">PREMIUM</string>
+    <string name="detalles2">• Entrenador\n• Clases\n• Nutrición</string>
+    <string name="plan3">ANUAL</string>
+    <string name="detalles3">• Todo Premium\n• Congelar\n• Invitado</string>
+
+
+
 </resources>

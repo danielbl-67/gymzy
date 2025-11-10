@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/comfortaa"
-        android:text="¡Bienvenido! @{username}  "
+        android:text="@string/bienvenida"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="20sp"
@@ -32,7 +32,7 @@
         android:layout_gravity="end"
         android:layout_margin="16dp"
         android:backgroundTint="@color/design_default_color_error"
-        android:text="Cerrar Sesión"
+        android:text="@string/btncerrarsesion"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,7 +46,7 @@
         android:layout_marginTop="44dp"
         android:fontFamily="@font/comfortaa"
         android:lineSpacingExtra="8sp"
-        android:text="GYMZY"
+        android:text="@string/app_name"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@color/design_default_color_error"
@@ -66,7 +66,7 @@
         android:layout_marginTop="20dp"
         android:fontFamily="@font/comfortaa"
         android:paddingBottom="16dp"
-        android:text="¿Que te toca hoy?"
+        android:text="@string/toca"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="24sp"
@@ -96,7 +96,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/design_default_color_error"
             android:fontFamily="@font/comfortaa"
-            android:text="Pecho"
+            android:text="@string/btnpecho"
             android:textSize="16sp"
             tools:ignore="HardcodedText" />
 
@@ -106,7 +106,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/design_default_color_error"
             android:fontFamily="@font/comfortaa"
-            android:text="Espalda"
+            android:text="@string/btnespalda"
             android:textSize="16sp"
             tools:ignore="HardcodedText" />
 
@@ -116,7 +116,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/design_default_color_error"
             android:fontFamily="@font/comfortaa"
-            android:text="Biceps"
+            android:text="@string/btnbiceps"
             android:textSize="16sp"
             tools:ignore="HardcodedText" />
 
@@ -126,7 +126,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/design_default_color_error"
             android:fontFamily="@font/comfortaa"
-            android:text="Triceps"
+            android:text="@string/btntriceps"
             android:textSize="16sp"
             tools:ignore="HardcodedText" />
 
@@ -136,7 +136,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/design_default_color_error"
             android:fontFamily="@font/comfortaa"
-            android:text="Pierna"
+            android:text="@string/btnpierna"
             android:textSize="16sp"
             tools:ignore="HardcodedText" />
 
@@ -146,7 +146,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/design_default_color_error"
             android:fontFamily="@font/comfortaa"
-            android:text="Gluteo"
+            android:text="@string/btngluteo"
             android:textSize="16sp"
             tools:ignore="HardcodedText" />
 
@@ -156,7 +156,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/design_default_color_error"
             android:fontFamily="@font/comfortaa"
-            android:text="Hombro"
+            android:text="@string/btnhombro"
             android:textSize="16sp"
             tools:ignore="HardcodedText" />
 
@@ -166,7 +166,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/design_default_color_error"
             android:fontFamily="@font/comfortaa"
-            android:text="Abs"
+            android:text="@string/btnbabs"
             android:textSize="16sp"
             tools:ignore="HardcodedText" />
 
@@ -176,7 +176,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/design_default_color_error"
             android:fontFamily="@font/comfortaa"
-            android:text="Cardio"
+            android:text="@string/btncardio"
             android:textSize="16sp"
             tools:ignore="HardcodedText" />
     </GridLayout>

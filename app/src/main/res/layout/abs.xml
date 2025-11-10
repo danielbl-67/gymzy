@@ -20,7 +20,7 @@
         android:elevation="4dp"
         android:paddingHorizontal="16dp"
         android:paddingVertical="8dp"
-        android:text="Salir"
+        android:text="@string/btnSalir"
         android:textAllCaps="false"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:text="Rutina de Abdominales"
+        android:text="@string/tituloAbs"
         android:textColor="@android:color/white"
         android:textSize="22sp"
         android:textStyle="bold"
@@ -79,7 +79,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginStart="16dp"
                 android:gravity="center_vertical"
-                android:text="Crunch en máquina"
+                android:text="@string/ej1abs"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
         </TableRow>
@@ -107,7 +107,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginStart="16dp"
                 android:gravity="center_vertical"
-                android:text="Plancha abdominal"
+                android:text="@string/ej2abs"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
         </TableRow>
