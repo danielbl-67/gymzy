@@ -1,3 +1,5 @@
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/89d82006-13c9-4f9e-879c-7681121b2a99" />
+
 # 🏋️‍♂️ Gymzy
 
 **Gymzy** es una aplicación móvil para Android diseñada para ayudar a los usuarios a gestionar sus rutinas de entrenamiento, explorar ejercicios y realizar un seguimiento de su progreso físico de manera sencilla e intuitiva.
