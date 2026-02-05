@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_inicio"
+        android:icon="@drawable/ic_hogar"
+        android:title="Inicio" />
+    <item
+        android:id="@+id/nav_configuracion"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="Configuracion" />
+    <item
+        android:id="@+id/nav_planes"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="Planes" />
+    <item
+        android:id="@+id/nav_nutricion"
+        android:icon="@drawable/ic_nutricion"
+        android:title="Nutricion" />
+    <item
+        android:id="@+id/nav_entrenamiento"
+        android:icon="@drawable/ic_musculo"
+        android:title="Entrenamiento" />
+
+</menu>

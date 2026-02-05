@@ -101,6 +101,8 @@
     <string name="plan3">ANUAL</string>
     <string name="detalles3">• Todo Premium\n• Congelar\n• Invitado</string>
 
-
+    //Menu
+    <string name="menu_open">Abrir menú</string>
+    <string name="menu_close">Cerrar menú</string>
 
 </resources>

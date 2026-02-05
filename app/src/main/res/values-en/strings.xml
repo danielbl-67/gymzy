@@ -101,4 +101,9 @@
     <string name="detalles2">• Personal Trainer\n• Classes\n• Nutrition</string>
     <string name="plan3">ANNUAL</string>
     <string name="detalles3">• All Premium Benefits\n• Freeze Option\n• Guest Pass</string>
+
+    //Menu
+    <string name="menu_open">Abrir menú</string>
+    <string name="menu_close">Cerrar menú</string>
+
 </resources>
