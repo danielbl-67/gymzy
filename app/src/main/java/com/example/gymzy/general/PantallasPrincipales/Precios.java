@@ -1,4 +1,4 @@
-package com.example.gymzy.general;
+package com.example.gymzy.general.PantallasPrincipales;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.TextView;
 import androidx.activity.EdgeToEdge;
 import com.example.gymzy.R;
+import com.example.gymzy.general.sesion.MainActivity;
 import com.google.android.material.button.MaterialButton;
 import java.text.NumberFormat;
 import java.util.Locale;

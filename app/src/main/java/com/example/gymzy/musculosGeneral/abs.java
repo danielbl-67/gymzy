@@ -7,7 +7,7 @@ import android.widget.Button;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.gymzy.general.ListaRutina;
+import com.example.gymzy.general.PantallasPrincipales.ListaRutina;
 import com.example.gymzy.R;
 
 public class abs extends AppCompatActivity {

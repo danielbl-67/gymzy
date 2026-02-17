@@ -9,7 +9,7 @@ import android.widget.ImageButton;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.gymzy.general.ListaRutina;
+import com.example.gymzy.general.PantallasPrincipales.ListaRutina;
 import com.example.gymzy.musculoPecho.PressBancaDetalleActivity;
 import com.example.gymzy.R;
 import com.example.gymzy.general.sesion.SessionManager;
